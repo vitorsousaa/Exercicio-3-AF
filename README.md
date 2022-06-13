@@ -21,16 +21,16 @@ public class med_alu_vet {
 
 	public static void main(String[] args) {
 		Scanner batman = new Scanner(System.in);
-//Formando variaveis  variaveis 
-		int n = 6; // inserindo valor nas variaveis
-		int s[] = new int[n];// criando matriz
+//Formando variaveis   
+		int n = 6; // Colocando valor nas variaveis
+		int s[] = new int[n];// Colocando  matriz
 		int i;
 		// Mostrar na tela
 		System.out.println("informe Quantos Alunos tem nas Salas:");
 		// Codigo para criar repetição repetição
 		for (i = 0; i < n; i++) {
 			System.out.printf("Sala %d: ", (i + 1), n);
-			s[i] = batman.nextInt();// atribuindo valor digitado pelo usuario
+			s[i] = batman.nextInt();// colocando valores digitado pelo usuario
 
 		}
 
